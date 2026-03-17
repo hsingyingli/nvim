@@ -1,0 +1,36 @@
+return {
+  -- {
+  --   "zbirenbaum/copilot.lua",
+  --   cmd = "Copilot",
+  --   build = ":Copilot auth",
+  --   event = "InsertEnter",
+  --   opts = {
+  --     suggestion = {
+  --       enabled = true,
+  --       auto_trigger = true,
+  --       hide_during_completion = vim.g.ai_cmp,
+  --       keymap = {
+  --         accept = false, -- handled by nvim-cmp / blink.cmp
+  --         next = false,
+  --         prev = false,
+  --       },
+  --     },
+  --     panel = {
+  --       enabled = false,
+  --     },
+  --     filetypes = {
+  --       markdown = true,
+  --       help = true,
+  --       jsx = true,
+  --       js = true,
+  --       ts = true,
+  --       tsx = true,
+  --       go = true,
+  --       rb = true,
+  --       erb = true,
+  --       py = true,
+  --     },
+  --     -- copilot_node_command = "/Users/aaron/.local/share/nvm/v22.3.0/bin/node", -- Node.js version must be > 18.x
+  --   },
+  -- },
+}
