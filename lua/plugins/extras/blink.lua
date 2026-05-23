@@ -6,6 +6,14 @@ return {
       fuzzy = {
         implementation = "lua",
       },
+      completion = {
+        list = {
+          selection = {
+            preselect = true,
+            auto_insert = false,
+          },
+        },
+      },
       keymap = {
         preset = "default", -- 或 "super-tab"
 
