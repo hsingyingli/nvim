@@ -22,3 +22,9 @@ keymap.set("t", "sh", "<C-\\><C-n><C-w>h", { desc = "Go to left window" })
 keymap.set("t", "sj", "<C-\\><C-n><C-w>j", { desc = "Go to lower window" })
 keymap.set("t", "sk", "<C-\\><C-n><C-w>k", { desc = "Go to upper window" })
 keymap.set("t", "sl", "<C-\\><C-n><C-w>l", { desc = "Go to right window" })
+
+-- Resize window
+keymap.set("n", "<C-w><left>", "<C-w><")
+keymap.set("n", "<C-w><right>", "<C-w>>")
+keymap.set("n", "<C-w><up>", "<C-w>+")
+keymap.set("n", "<C-w><down>", "<C-w>-")
